@@ -15,9 +15,22 @@ export default function Home() {
           
         />
         <div className="flex flex-col gap-5 bg-emerald-600 p-4" >
-          <label htmlFor="nome">Nome</label>
-          <input type="text"  value = "Luiz Santos"/>
-          <button className="bg-black">Salvar</button>
+
+          <form action="" method = "GET">
+            <label htmlFor="data">Data:</label>
+            <input type="text" placeholder = "02/03/2025"/>
+            <label htmlFor="nome">Nome:</label>
+            <input type="text" placeholder = "Luiz Santos"/>
+            <label htmlFor="fone">Fone:</label>
+            <input type="text" placeholder = "(11) 93005-9542"/>
+            <label htmlFor="placa">Placa:</label>
+            <input type="text" placeholder = "LUI-4589"/>
+            <label htmlFor="modelo">Modelo</label>
+            <input type="text"  placeholder = "HONDA TITAN 180 CC"/>
+            <hr />
+            <button type ="submit" className="bg-black w-40" >Salvar</button>
+          </form>
+           
         </div>
       </main>
       <footer className="p-4">
