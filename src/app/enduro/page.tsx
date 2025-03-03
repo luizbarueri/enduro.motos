@@ -5,11 +5,11 @@ export default function Enduro() {
     <div className="">
           
         <Image
-          className="dark:invert"
-          src="/enduro.png"
-          alt="Tela Enduro"
-          //width={90}
-          //height={19}
+          className=""
+          src="/tela-enduro.png"
+          alt="Imagem Enduro"
+          width={200}
+          height={150}
           priority
           
         />
