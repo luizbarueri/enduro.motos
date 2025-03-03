@@ -8,8 +8,8 @@ export default function Enduro() {
           className=""
           src="/tela-enduro.png"
           alt="Imagem Enduro"
-          width={200}
-          height={150}
+          width={16}
+          height={16}
           priority
           
         />

@@ -6,10 +6,10 @@ export default function Home() {
       <main>
         <Image
           className=""
-          src="/tela-enduro.png"
+          src="/logo-enduro.png"
           alt="Tela Enduro"
-          width={800}
-          height={500}
+          width={252}
+          height={173}
           priority
           
         />
